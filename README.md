@@ -25,9 +25,15 @@ In group of 4, we are working on this assignment.
 # Class Diagram
 
 **Users:** Represents a user of the platform with attributes like name, email, password, and userType. Subclass of User, represents.
+
 **Consumer:** Subclass of User, represents a consumer with additional attributes like purchase.
+
 **Retailer:** Subclass of User, represents a retailer with additional attributes like business_name.
+
 **CharitableOrganization:** Subclass of User, represents a charitable organization with additional attributes like organization name.
+
 **Inventory:** Manages the inventory of a retailer and represents individual food items with attributes like name, quantity, and reduced price or free for donation.
+
 **Subscription:** Represents a user's subscription to receive surplus food alerts.
+
 **Claims:** Tracks claims made by charitable organizations for surplus food items.
